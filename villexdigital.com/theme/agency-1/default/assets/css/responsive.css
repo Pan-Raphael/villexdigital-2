@@ -1,0 +1,315 @@
+/* Copyright (c) 2023, LeadSwift. All rights reserved.
+ *
+ * This file is exclusively licensed to active LeadSwift clients and is protected by
+ * copyright law. You are not authorized to copy, modify or distribute this CSS file
+ * outside of LeadSwift without prior written permission.
+ *
+ * Learn more about LeadSwift at https://leadswift.com/
+ */
+
+/*========== XL-DESKTOP : BETWEEN 1200px TO 1500PX. ==========*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+   /* GLOBAL */
+   h1 {font-size: 50px;}
+   h2 {font-size: 40px;}
+   h3 {font-size: 35px;}
+   h4 {font-size: 28px;}
+   h5 {font-size: 18px;}
+   h6 {font-size: 16px;}
+   body {
+      font-size: 16px;
+   }
+   .container {
+      max-width: 1120px;
+   }
+   /* GLOBAL// */
+}
+
+/*========== LG + MD : BETWEEN 768PX TO 1199PX. ==========*/
+@media (min-width: 768px) and (max-width: 1199px) {
+   /* GLOBAL */
+   h1 {font-size: 35px;}
+   h2 {font-size: 30px;}
+   h3 {font-size: 26px;}
+   h4 {font-size: 22px;}
+   h5 {font-size: 16px;}
+   h6 {font-size: 14px;}
+   body {
+      font-size: 14px;
+   }
+   .analyze-item p,
+   .service-item p,
+   .mainmenu li a,
+   .text-simple-link {
+      font-size: 14px;
+   }
+
+   /* GLOBAL// */
+   /* header */
+   .header-top {
+      font-size: 14px;
+   }
+   .contact-form {
+      padding: 2em 1.5em;
+   }
+
+   /* analyze */
+   .analyze-bx-wrap{
+      font-size: 12px;
+   }
+   .analyze-bx .analyze-shadow.bottom-left {
+      margin-left: -23%;
+   }
+}
+
+/*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+   /* GLOBAL */
+   .container {
+      max-width: 920px;
+   }
+   /* GLOBAL// */
+   
+}
+
+/*========== MD-TABLET : BETWEEN 768PX TO 991PX ==========*/
+@media (min-width: 768px) and (max-width: 991px) {
+   /* GLOBAL */
+   .container {
+      max-width: 750px;
+   }
+   /* GLOBAL// */
+   .boxed-text {
+      font-size: 60%;
+   }
+   .analyze-item p, .service-item p, .mainmenu li a, .text-simple-link {
+      font-size: 12px;
+   }
+}
+
+/*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
+@media (max-width: 767px) {
+   /* GLOBAL */
+   h1 {font-size: 36px;}
+   h2 {font-size: 30px;}
+   h3 {font-size: 28px;}
+   h4 {font-size: 26px;}
+   h6 {font-size: 16px;}
+   body {
+      font-size: 16px;
+   }
+   .section-padding {
+      padding-top: 2.8em;
+      padding-bottom: 2.8em;
+   }
+   .site-btn {
+      font-size: 14px;
+      height: 2.7em;
+   }
+   /* GLOBAL// */
+
+   /* HEADER AREA */
+   .header-content {
+      padding: .8em 0;
+      background: #FFF;
+   }
+   .hero-area {
+      padding-top: 2.5em;
+      padding-bottom: 6em;
+   }
+   /* HEADER AREA// */
+
+   /* HERO AREA */
+   .hero-content-box {
+      margin-right: 11%;
+      margin-left: 7%;
+   }
+   .boxed-text {
+      font-size: 7px;
+   }
+   /* HERO AREA// */
+
+   /* ABOUT AREA */
+   .about-content h2 .el-absolute {
+      display: none;
+   }
+   .about-content .el-bg {
+      left: -35%;
+      bottom: 0;
+      top: auto;
+      width: 130%;
+      max-width: none;
+   }
+   .about-content {
+      padding: 2.8em 1.2em 0;
+   }
+   .about-area > .el-absolute:first-child {
+      display: none;
+   }
+   .about-content > .el-absolute {
+      width: 10%;
+   }
+   .about-area > .el-absolute.top-right {
+      z-index: 2;
+      bottom: 37%;
+      top: auto;
+      right: auto;
+      left: 11%;
+      width: 16%;
+   }
+   /* ABOUT AREA// */
+
+   /* SERVICE AREA */
+   .section-title {
+      margin-bottom: 2em;
+   }
+   /* SERVICE AREA// */
+
+   /* ANALYZE AREA */
+   .analyze-area .section-content h2 {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .analyze-area .section-img {
+      margin-right: -15%;
+      margin-left: -14%;
+   }
+   .analyze-item:hover {
+      transform: translateY(0em);
+   }
+   .analyze-bx-wrap{
+      font-size: 11px;
+   }
+   .analyze-bx {
+      margin: 17% 5% 25%;
+   }
+   .analyze-bx .analyze-shadow.bottom-left {
+      margin-left: -9%;
+      margin-bottom: -12%;
+   }
+   /* ANALYZE AREA// */
+
+   /* FEATURE AREA */
+   .feature-area > .el-absolute:first-child, .calculation-area > .el-absolute {
+      top: -5%;
+      left: -6%;
+      width: 9.8%;
+   }
+   .feature-area > .el-absolute.top-right {
+      top: -4%;
+      right: -6%;
+      width: 22.5%;
+   }
+   .feature-area {
+      overflow: hidden;
+   }
+   .feature-item {
+      width: 50%;
+      position: relative;
+   }
+   .col:nth-child(2n) > .feature-item {
+      margin-left: auto;
+   }
+   .feature-area > .el-absolute.top-right {
+      top: -1.5%;
+      right: -8%;
+   }
+   .feature-area > .el-absolute:first-child, .calculation-area > .el-absolute {
+      top: -2.5%;
+   }
+   
+   .feature-item .el-absolute {
+      left: 77%;
+      top: 95%;
+      transform: rotate(8deg);
+   }
+   .col:nth-child(2n) > .feature-item .el-absolute {
+      left: -30%;
+      top: 105%;
+      transform: rotateX(180deg) rotateY(180deg) rotate(-57deg);
+   }
+   .col:last-child > .feature-item .el-absolute {
+      display: none;
+   }
+   /* FEATURE AREA// */
+
+   /* CALCULATION AREA// */
+   .calculation-item {
+      width: auto;
+      flex: 1 1 auto;
+   }
+   .calculation-content .section-title {
+      margin: 0;
+   }
+   .calculation-content {
+      padding: 2em 1em;
+      margin: 0;
+      overflow: hidden;
+   }
+   .calculation-content > .el-absolute {
+      margin: 0;
+      width: 11%;
+   }
+   .calculation-content > .el-absolute:nth-child(2) {
+      width: 18%;
+      bottom: -3%;
+      right: 1%;
+   }
+   /* CALCULATION AREA// */
+
+   /* CONTACT AREA */
+   .contact-form-wrap .section-title {
+      padding-bottom: 0;
+      padding-top: 2em;
+      margin-top: 0;
+      margin-top: 1em;
+      border-top: 1px dashed #F3C6E9;
+      border-bottom: 0;
+      margin-bottom: 2em;
+   }
+   .contact-form {
+      padding: 2em 1.5em;
+   }
+   .contact-form .site-btn {
+      height: 4.35em;
+   }
+   .nice-select, input, textarea {
+      padding: 1.1em;
+   }
+   /* CONTACT AREA// */
+
+
+   /* FOOTER AREA */
+   .copyright {
+      padding: 1.5em 0;
+      font-size: 14px;
+   }
+   /* FOOTER AREA// */
+
+
+}
+
+/*========== LARGE MOBILE : BETWEEN 480PX TO 767PX ==========*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .container {
+      max-width: 350px;
+   }
+}
+
+.header-content .col {
+	width: 50%;
+}
+
+/*========== XS DEVICES : <345PX ==========*/
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+	.header-content .col:nth-of-type(1) {
+			max-width: none;
+	}
+	.header-content .col:nth-of-type(2) {
+			display: contents;
+	}
+	.header-content .logo-name {
+		display: none;
+	}
+}
